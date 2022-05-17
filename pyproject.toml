@@ -11,6 +11,8 @@ allennlp-models = "2.5.0"
 tokenizers = "*"
 jupyterlab = "^3.4.1"
 ipywidgets = "^7.7.0"
+allennlp-server = {path = "../../git/allennlp-server"}
+nltk = "^3.7"
 [tool.poetry.dev-dependencies]
 
 [build-system]
