@@ -71,6 +71,14 @@ type = "directory"
 url = "../../git/allennlp-server"
 
 [[package]]
+name = "annoy"
+version = "1.17.0"
+description = "Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk."
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "anyio"
 version = "3.5.0"
 description = "High level compatibility layer for multiple asynchronous event loop implementations"
@@ -2654,7 +2662,7 @@ testing = ["coverage (>=5.0.3)", "zope.event", "zope.testing"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "0559e0169a51945556f5f640f4cf1bcb3b13ad48fb6b66a14eb58779289294cc"
+content-hash = "ead7777dee46a363502db833758074fd54f28be82a957bec80262b554f267762"
 
 [metadata.files]
 allennlp = [
@@ -2666,6 +2674,10 @@ allennlp-models = [
     {file = "allennlp_models-2.5.0.tar.gz", hash = "sha256:922615f561c2b5cdefccf8b296817f6bd38214e317ba6ad259f68a7c26858dee"},
 ]
 allennlp-server = []
+annoy = [
+    {file = "annoy-1.17.0-cp37-cp37m-macosx_10_14_x86_64.whl", hash = "sha256:78df35a7c2c74b74d94b4bdc74ab4faa9a5ff67cb83d12902673d0d9bd02219d"},
+    {file = "annoy-1.17.0.tar.gz", hash = "sha256:9891e264041d1dcf3af42f67fbb16cb273c5404bc8c869d0915a3087f71d58dd"},
+]
 anyio = [
     {file = "anyio-3.5.0-py3-none-any.whl", hash = "sha256:b5fa16c5ff93fa1046f2eeb5bbff2dad4d3514d6cda61d02816dba34fa8c3c2e"},
     {file = "anyio-3.5.0.tar.gz", hash = "sha256:a0aeffe2fb1fdf374a8e4b471444f0f3ac4fb9f5a5b542b48824475e0042a5a6"},
